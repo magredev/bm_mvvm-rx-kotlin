@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Text sizes -->
+    <style name="TextStyleSmall">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <!-- Text color and style -->
+    <style name="TextStyleSmall.Gray.Normal" parent="TextStyleSmall">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextStyleSmall.Gray.Bold" parent="TextStyleSmall">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyleSmall.Gray.Italic" parent="TextStyleSmall">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+</resources>

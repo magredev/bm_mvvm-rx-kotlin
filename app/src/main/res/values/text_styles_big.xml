@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Text sizs -->
+    <style name="TextStyleBig">
+        <item name="android:textSize">@dimen/text_size_big</item>
+    </style>
+
+    <!-- Text color and style -->
+    <style name="TextStyleBig.Gray.Normal" parent="TextStyleBig">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextStyleBig.Gray.Bold" parent="TextStyleBig">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyleBig.Gray.Italic" parent="TextStyleBig">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="TextStyleBig.Gray.Bold.Italic" parent="TextStyleBig">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+</resources>

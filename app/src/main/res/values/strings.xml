@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">BM Jaume</string>
+
+    <string name="splash_title">Jaume Nin Challenge</string>
+
+    <string name="network_error">Please check your network connection</string>
+
+    <string name="total_sum">%s EUR</string>
+
+    <!-- Action bar titles -->
+    <string name="actionbar_product_list">Product list</string>
+    <string name="actionbar_product_detail">Product detail</string>
+
+</resources>
